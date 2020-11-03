@@ -1,0 +1,136 @@
+:root {
+    --menu-color: #242424;
+    --content-color: #363636;
+    --play-color: #646464;
+}
+.main {
+    width: 100%;
+    height:100vh;
+    background-color:red;
+}
+
+.menu {
+    background-color: var(--menu-color);
+    width:250px;
+    height:calc(100vh - 100px);
+    float:left;
+}
+
+.content {
+    background-color: var(--content-color);
+    width:calc(100% - 250px);
+    height:calc(100vh - 100px);
+    float:left;
+    padding-top: 150px;
+}
+.play {
+    background-color: var(--play-color);
+    width:100%;
+    height:100px;
+    float:left;
+}
+.menu_item{
+    color: #f0f0f0;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:30px;
+    line-height: 30px;
+
+}
+
+.menu_item:hover{
+    cursor:pointer;
+    background-color: #151515;
+    font-weight: bold;
+    transition: 0.2s;
+}
+.music_data_holder{
+    width: 250px;
+    height: 100%;
+    padding: 10px;
+    float: left;
+}
+#music_img{
+    height: 80px;
+    width: 80px;
+    float: left;
+    background-image: url("krúbi.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px; 
+}
+#actual_title{
+    font-size: 16px;
+    color:white;
+    line-height: 20px;
+    
+}
+
+#actual_author{
+   color: rgb(201, 196, 196);
+   margin-top: 5px;
+   
+}
+.controller_holder{
+    width: calc(100% - 250px);
+    height: 50%;
+    float: left;
+}
+.controller{
+    width: 115px;
+    height: 100%;
+    margin: auto;
+}
+.controller img{
+    width: 30px;
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+    filter: invert(0.8);
+}
+.controller:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+#play_pause{
+    width: 25px;
+}
+
+.time_line{
+    width: 500px;
+    height: 20px;
+    border: 1px solid white;
+
+}
+.inner_line{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(177, 172, 172);
+}
+.my_card{
+    width: calc(100% / 3);
+    min-height: 500px;
+    float:left;
+    padding: 50px;
+    padding-top: 0px;
+}
+.my_card img{
+    width: 100%;
+    cursor: pointer;
+}
+.my_card h2{
+    color: white;
+    font-size: 1.5em;
+    padding-top: 0px;
+}
+.my_card h3{
+    color: grey;
+    font-size: 1em;
+    padding-top: 0px;
+}
+.carousel-inner{
+    width: 80%;
+   margin:auto;
+}
